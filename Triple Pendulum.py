@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-
+print('Put constant values')
 m1 = float(input('m1 = '))
 m2 = float(input('m2 = '))
 m3 = float(input('m3 = '))
@@ -10,12 +10,13 @@ l2 = float(input('l2 = '))
 l3 = float(input('l3 = '))
 g = 9.81
 
+print('Put initial values in degrees and rad/s')
 th1 = np.radians(float(input('theta_1 = ')))
 th2 = np.radians(float(input('theta_2 = ')))
-th3 = np.radians(float(input('theta_3 = ')))
-om1 = np.radians(float(input('omega_1 = ')))
-om2 = np.radians(float(input('omega_2 = ')))
-om3 = np.radians(float(input('omega_3 = ')))
+th3 = float(input('theta_3 = '))
+om1 = float(input('omega_1 = '))
+om2 = float(input('omega_2 = '))
+om3 = float(input('omega_3 = '))
 
 h = 0.01
 t = 10
