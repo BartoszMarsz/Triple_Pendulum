@@ -13,7 +13,7 @@ g = 9.81
 print('Put initial values in degrees and rad/s')
 th1 = np.radians(float(input('theta_1 = ')))
 th2 = np.radians(float(input('theta_2 = ')))
-th3 = float(input('theta_3 = '))
+th3 = np.radians(float(input('theta_3 = ')))
 om1 = float(input('omega_1 = '))
 om2 = float(input('omega_2 = '))
 om3 = float(input('omega_3 = '))
